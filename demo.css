@@ -4,16 +4,69 @@ body{
     background-image:url("sideColBG.png");
     color:White;
     font-size:30px;
+    font-family:Papyrus,Impact,sans-serif;
+
+}
+a:link{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+a:visited{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+a:hover{
+    color:blue;
+    text-decoration:none;
+    font-weight:bold;
+}
+a:active{
+    color:blue;
+    text-decoration:none;
+    font-weight:bold;
 }
 
+
 /* Classes */
+.content {
+    background: linear-gradient(to bottom, #9cc, #fff, #9cc);
+    background-color: #9cc;
+    width: 70%;
+    margin: auto;
+    border: solid 10px #fff;
+    padding: 25px;
+    color: black;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+.titleBar{
+    background-color:lime;
+    background-image:url("headerBG.png");
+    position:absolute;
+    left:0;
+    right:0;
+    margin:0;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-top:solid 10px #fff;
+    border-bottom:solid 10px #fff;
+    font-size:40px;
+    text-align:center;
+    color:black;
+}
+.titleBarSpacer{
+    width:30%;
+    float:left;
+}
+
 
 /* IDs */
 #header{
     background-color:#3f3;
     background-image:url("headerBG.png");
     width:100%;
-    height:300px;
     margin:auto;
     position:absolute;
     left:0;
@@ -21,16 +74,6 @@ body{
     top:0;
     border-bottom:solid 10px #fff;
     text-align: center;
-}
-#content{
-    background:linear-gradient(to bottom, #9cc, #fff, #9cc);
-    background-color:#9cc;
-    width:70%;
-    margin:auto;
-    border:solid 10px #fff;
-    margin-top:300px;
-    padding:25px;
-    color:black;
 }
 #logo{
     margin-top:5px;
@@ -53,4 +96,15 @@ body{
     right:0;
     background:linear-gradient(to right, darkgreen, lime, darkgreen);
     padding:3px;
+    border-top:solid 10px #fff;
+}
+#shareButtons{
+    float:right;
+    margin-right:30px;
+}
+
+/* Content Divs */
+#content1{
+    margin-top: 300px;
+    border-bottom:none;
 }
