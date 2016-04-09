@@ -4,7 +4,7 @@
 # HTML show case page has been refined --- 4/9/16
     Addition of:
         Game Logo
-        iFrame
+        iFrame (Resizeably using JS)
         some back-story
         linked to GitHub Repository
     Plans for tomorrow:
