@@ -1,11 +1,47 @@
-<DOCTYPE! html>
+<!DOCTYPE html>
 <html>
 <head>
     <title>Ezra - The Battle With Darkness (DEMO)</title>
     <link rel="stylesheet" type="text/html" href="demo.css">
+
+    <script>
+        function jsUpdateSize(){
+            // Get the dimensions of the viewport
+            var width = window.innerWidth ||
+                    document.documentElement.clientWidth ||
+                    document.body.clientWidth;
+            var conWidth = 0.8 * width;
+            var ratio = conWidth / 16;
+            var newHeight = ratio * 9;
+            document.getElementById("demoFrame").style.height = newHeight + "px";
+        }
+        window.onload = jsUpdateSize;       // When the page first loads
+        window.onresize = jsUpdateSize;
+    </script>
 </head>
 <body>
-    <div id="header"></div>
-    <div id="content"></div>
+    <div id="header">
+        <img id="logo" src="logo.png" alt="Ezra: The Battle With Darkness"><br>
+        | DEMO VERSION |
+    </div>
+    <div id="content">
+        <div id="frame">
+            <iframe id="demoFrame" src="http://www.theuselessweb.com/" align="top">
+                <p>I do apologise, but your browser does not support iframes. Please <a href="gameDemo.html">Click Here</a> to go to a page that should work.</p>
+            </iframe>
+        </div>
+        <p>
+            Back Story:<br>
+            In a land, known only to myth and legend, the world has three guardians, the Guardians of Light.  <br>
+            <blockquote><span style="color:blue;">The Sky</span>, vast, stretching higher and farther than any creature could travel.  <br>
+            <span style="color:yellow">The Sun</span>, bright and blazing, providing the warmth of life to the creatures of the land, and burning away the shadows.<br>
+            <span style="color:rebeccapurple">The Moon</span>, providing balance, the benign night to the sun's day, the pull and push of the waves, acting as an equal and opposite force.</blockquote><br>
+            These
+        </p>
+    </div>
+
+    <div id="shareMe">
+        <a href="https://github.com/Early-Career-Academy-Tempe-AZ/Ezra-The-Battle-with-Darkness">Check It Out on GitHub!</a>
+    </div>
 </body>
 </html>

@@ -1,7 +1,14 @@
+/* Whole Tags */
 body{
     background-color:#33f;
     background-image:url("sideColBG.png");
+    color:White;
+    font-size:30px;
 }
+
+/* Classes */
+
+/* IDs */
 #header{
     background-color:#3f3;
     background-image:url("headerBG.png");
@@ -12,10 +19,38 @@ body{
     left:0;
     right:0;
     top:0;
+    border-bottom:solid 10px #fff;
+    text-align: center;
 }
 #content{
+    background:linear-gradient(to bottom, #9cc, #fff, #9cc);
     background-color:#9cc;
-    width:80%;
-    height:1000px;
+    width:70%;
     margin:auto;
+    border:solid 10px #fff;
+    margin-top:300px;
+    padding:25px;
+    color:black;
+}
+#logo{
+    margin-top:5px;
+    width:500px;
+    height:250px;
+}
+#demoFrame{
+    width:80%;
+    height:730px;
+}
+#frame{
+    display:block;
+    margin:auto;
+    text-align:center;
+}
+#shareMe{
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    background:linear-gradient(to right, darkgreen, lime, darkgreen);
+    padding:3px;
 }
