@@ -1,5 +1,5 @@
 # Project Started --- 4/7/16
-    Began Creating the webpage for the demo game, o be creatted lattter.
+    Began Creating the webpage for the demo game, o be creatted later.
      Consisting of some HTML, CSS, Possibly JS, and custom images.
 # MISSING DATA === 4/8/16
     Last night, after working late to 12:30 AM, i had typed what i had done, and what ii wished to accomplish next day, but this did not commit.
