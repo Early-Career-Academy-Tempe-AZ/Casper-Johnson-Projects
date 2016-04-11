@@ -8,12 +8,12 @@ body{
 
 }
 a:link{
-    color:white;
+    color:darkblue;
     text-decoration:none;
     font-weight:bold;
 }
 a:visited{
-    color:white;
+    color:darkblue;
     text-decoration:none;
     font-weight:bold;
 }
@@ -23,7 +23,7 @@ a:hover{
     font-weight:bold;
 }
 a:active{
-    color:blue;
+    color:darkcyan;
     text-decoration:none;
     font-weight:bold;
 }
@@ -48,8 +48,9 @@ a:active{
     left:0;
     right:0;
     margin:0;
-    padding-top:10px;
-    padding-bottom:10px;
+    margin-top:-10px;
+    padding-top:50px;
+    padding-bottom:50px;
     border-top:solid 10px #fff;
     border-bottom:solid 10px #fff;
     font-size:40px;
@@ -105,6 +106,13 @@ a:active{
 
 /* Content Divs */
 #content1{
-    margin-top: 300px;
+    margin-top:300px;
     border-bottom:none;
+}
+#content2{
+    margin-top:100px;
+    padding-bottom:10px;
+}
+#content3{
+    margin-top:100px;
 }
